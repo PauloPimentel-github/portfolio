@@ -2,18 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --background: #f0f2f5;
-        --red: #E52E4D;
-        --green: #33cc95;
-        --blue: #5429cc;
-
-        --blue-light: #6933FF;
-
-        --text-title: #363F5F;
-        --text-body: #969CB3;
-
-        --background: #F0F2F5;
-        --shape: #FFFFFF;
+        --body-bg-color: #22212C;
+        --text-color: #837E9F;
+        --bg-cards: #302F3D;
+        --bg-techs: #CB92B1;
     }
 
     * {
@@ -34,12 +26,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: var(--background);
+        background: var(--body-bg-color);
         --webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Merriweather Sans', sans-serif;
         font-weight: 400;
     }
 
@@ -49,6 +41,18 @@ export const GlobalStyle = createGlobalStyle`
 
     button {
         cursor: pointer;
+    }
+
+    a { 
+        text-decoration: none;
+    }
+
+    li { 
+        list-style: none;
+    }
+
+    .text_center {
+        text-align: center;
     }
 
     [disabled] {
