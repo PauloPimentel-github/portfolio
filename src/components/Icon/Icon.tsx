@@ -9,7 +9,7 @@ export function Icon(props: IconProps) {
     switch (props.name) {
         case 'briefcase':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                     <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill={props.color} />
                 </svg>
@@ -17,7 +17,7 @@ export function Icon(props: IconProps) {
 
         case 'folder':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 2.25C9.83148 2.25 8.28076 2.90076 7.3125 3.91406C6.34424 4.92736 6 6.23683 6 7.42969V7.54688C5.73458 7.51764 5.47833 7.5 5.25 7.5C3.64375 7.5 2.25 8.81323 2.25 10.5C2.25 12.1574 3.59265 13.5 5.25 13.5H5.55469L5.78906 13.2891C5.78906 13.2891 5.80079 13.2595 5.97656 13.1484C6.15234 13.0374 6.44646 12.8732 6.91406 12.7031C7.84928 12.363 9.44643 12 12 12C14.5536 12 16.1507 12.363 17.0859 12.7031C17.5535 12.8732 17.8477 13.0374 18.0234 13.1484C18.1992 13.2595 18.2109 13.2891 18.2109 13.2891L18.4453 13.5H18.75C20.4074 13.5 21.75 12.1574 21.75 10.5C21.75 8.84265 20.4074 7.5 18.75 7.5C18.5198 7.5 18.2614 7.51912 18 7.54688V7.42969C18 6.18702 17.6033 4.86453 16.6172 3.86719C15.6311 2.86985 14.0942 2.25 12 2.25ZM12 3.75C13.8058 3.75 14.8986 4.25046 15.5625 4.92188C16.2264 5.59329 16.5 6.49736 16.5 7.42969V7.75781C16.2773 7.79474 16.083 7.83672 15.8438 7.875C14.6848 8.06043 13.3592 8.25 12 8.25C10.6408 8.25 9.30071 8.06038 8.13281 7.875C7.90145 7.83828 7.71499 7.8168 7.5 7.78125V7.42969C7.5 6.52254 7.74639 5.61951 8.39062 4.94531C9.03486 4.27111 10.1185 3.75 12 3.75ZM5.25 9C5.69375 9 6.70384 9.18538 7.89844 9.375C9.09304 9.56462 10.5092 9.75 12 9.75C13.4908 9.75 14.8933 9.56457 16.0781 9.375C17.2629 9.18543 18.2596 9 18.75 9C19.6426 9 20.25 9.60735 20.25 10.5C20.25 11.3239 19.6956 11.8451 18.9141 11.9297C18.8776 11.9044 18.8849 11.9088 18.8438 11.8828C18.5742 11.7126 18.1652 11.5018 17.6016 11.2969C16.4743 10.887 14.6964 10.5 12 10.5C9.30357 10.5 7.52572 10.887 6.39844 11.2969C5.83479 11.5018 5.42578 11.7126 5.15625 11.8828C5.11512 11.9088 5.12245 11.9044 5.08594 11.9297C4.30441 11.8451 3.75 11.3239 3.75 10.5C3.75 9.63677 4.45625 9 5.25 9ZM12 12.75C11.1716 12.75 10.5 13.4216 10.5 14.25C10.5 15.0784 11.1716 15.75 12 15.75C12.8284 15.75 13.5 15.0784 13.5 14.25C13.5 13.4216 12.8284 12.75 12 12.75ZM7.73438 15C7.34271 15 6.89563 15.1603 6.51562 15.4453L6.46875 15.4922L6.42188 15.5391C5.89174 16.1023 5.8835 16.902 6.09375 17.5781C6.304 18.2543 6.72812 18.9206 7.28906 19.5234C8.41095 20.7292 10.1026 21.75 12 21.75C13.9032 21.75 15.5863 20.6931 16.6875 19.4766C17.2381 18.8683 17.658 18.2269 17.8594 17.5547C18.0607 16.8825 18.0302 16.0615 17.4844 15.5156C17.1415 15.1728 16.6573 15 16.2656 15C15.3121 15 14.7435 15.6048 14.0859 16.0312C13.4284 16.4577 12.7654 16.8047 11.9297 16.8047C11.1855 16.8047 10.5571 16.4599 9.91406 16.0312C9.27106 15.6026 8.68795 15 7.73438 15ZM7.73438 16.5C7.8308 16.5 8.36331 16.8021 9.07031 17.2734C9.77731 17.7448 10.7239 18.3047 11.9297 18.3047C13.194 18.3047 14.1763 17.7469 14.9062 17.2734C15.6362 16.7999 16.1692 16.5 16.2656 16.5C16.324 16.5 16.3225 16.4632 16.4297 16.5703C16.4839 16.6245 16.5166 16.7409 16.4062 17.1094C16.2959 17.4778 16.0197 17.9895 15.5859 18.4688C14.7184 19.4272 13.3218 20.25 12 20.25C10.6724 20.25 9.25155 19.4427 8.36719 18.4922C7.92501 18.0169 7.63897 17.5043 7.52344 17.1328C7.41272 16.7768 7.45829 16.6696 7.52344 16.5938C7.60533 16.5445 7.69425 16.5 7.73438 16.5Z" fill={props.color} />
                 </svg>
             );
@@ -31,14 +31,14 @@ export function Icon(props: IconProps) {
 
         case 'github':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" fill={props.color} />
                 </svg>
             );
 
         case 'globe':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10"></circle>
                     <line x1="2" y1="12" x2="22" y2="12"></line>
                     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" fill={props.color} />
@@ -54,7 +54,7 @@ export function Icon(props: IconProps) {
 
         case 'linkedin':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill={props.color} />
                     <rect x="2" y="9" width="4" height="12"></rect>
                     <circle cx="4" cy="4" r="2"></circle>
@@ -63,7 +63,7 @@ export function Icon(props: IconProps) {
 
         case 'mail':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill={props.color} />
                     <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
@@ -71,7 +71,7 @@ export function Icon(props: IconProps) {
 
         case 'map-pin':
             return (
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill={props.color} />
                     <circle cx="12" cy="10" r="3"></circle>
                 </svg>

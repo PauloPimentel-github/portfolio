@@ -23,35 +23,35 @@ export function Content() {
                             <ul className="menu">
                                 <li>
                                     <Icon name="map-pin" color="none" />
-                                    <a href="#" title="Brasil"> Brasil</a>
+                                    <span title="Brasil">Brasil</span>
                                 </li>
                                 <li>
                                     <Icon name="briefcase" color="none" />
-                                    <a href="#" title="Unicid">Unicid</a>
+                                    <span title="Unicid">Unicid</span>
                                 </li>
                                 <li>
                                     <Icon name="github" color="none" />
-                                    <a href="https://github.com/PauloPimentel-github" title="GitHub" target="_blank">
+                                    <a href="https://github.com/PauloPimentel-github" title="GitHub" target="_blank" rel="noreferrer">
                                         PauloPimentel-github
                                     </a>
                                 </li>
                                 <li>
                                     <Icon name="linkedin" color="none" />
-                                    <a href="https://www.linkedin.com/in/paulo-pimentel-1a9733124/" title="Linkedin" target="_blank">
+                                    <a href="https://www.linkedin.com/in/paulo-pimentel-1a9733124/" title="Linkedin" target="_blank" rel="noreferrer">
                                         paulo-pimentel
                                     </a>
                                 </li>
                                 <li>
                                     <Icon name="globe" color="none" />
-                                    <a href="https://paulohgpimentel.com.br" title="Website" target="_blank">
+                                    <a href="https://paulohgpimentel.com.br" title="Website" target="_blank" rel="noreferrer">
                                         https://paulohgpimentel.com.br
                                     </a>
                                 </li>
                                 <li>
                                     <Icon name="mail" color="none" />
-                                    <a href="#" title="E-mail"> 
+                                    <span title="E-mail"> 
                                         paulo.h.g.pimentel@gmail.com
-                                    </a>
+                                    </span>
                                 </li>
                             </ul>
                         </nav>

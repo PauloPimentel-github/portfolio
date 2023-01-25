@@ -54,7 +54,7 @@ export const Box = styled.div`
         margin: 10px 0;
     }
 
-    .box_item ul li a {
+    .box_item ul li a, span {
         font-size: 0.8rem;
         color: var(--text-color);
         margin-left: 10px;
